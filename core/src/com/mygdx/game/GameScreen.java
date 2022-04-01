@@ -102,7 +102,7 @@ public class GameScreen implements Screen {
         background.dispose();
     }
 
-    private void spawnBottledrops() {
+    private void spawnKeysdrops() {
         Raindrop raindrop = new Raindrop();
         raindrop.x = MathUtils.random(0, 800);
         raindrop.y = 550;
